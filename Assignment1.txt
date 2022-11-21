@@ -3,18 +3,21 @@ Assignment - 1
 # While r is used for reading ; r+ is used for reading and writing
 # While w is used for writing ; w+ is used for writing and reading.
 # While a is used for adding txt to a file ; a+ is for adding text and reading.
+
 # Example of r+
 file1=open("Python1.txt","r+")
 print(file1.read())
 file1=open("Python1.txt","r+")
 file1.write("New text \n")
 print(file1.read())
+
 # Example of w+
 file2=open("Python1.txt","w+")
 print(file2.read())
 file2.write("Assignment \n")
 file2.write("Completed\n")
 print(file2.read())
+
 # Example of a+
 file2=open("Python1.txt","a+")
 file2.write("Submitted\n")
